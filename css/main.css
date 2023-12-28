@@ -86,9 +86,9 @@ body {
   width: 300px;
   position: absolute;
   background-image: url(../Forex/Premium_Vector___Forex_trading_wallpaper-removebg-preview.png);
-  top: 35%;
+  top: 38%;
   z-index: 1;
-  right: -10px;
+  right: -25px;
 }
 
 /* .img-cont div {
@@ -100,16 +100,89 @@ body {
 .land-cont3 {
   font-size: 1.2em;
   color: white;
-  margin-top: 1em;
+  margin-top: 0.8em;
+  margin-left: 15px;
   text-transform: capitalize;
   color: slateblue;
   text-shadow: 0px 0px 1px white;
 }
 
-.land-cont3 ul {
-  list-style: none;
+.land-cont3 li {
+  list-style-type: none;
+  position: relative;
+  margin: 0.1em;
 }
 
 .land-cont3 li::before {
   content: "";
+  background-image: url(../Forex/bullet.svg);
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5em;
+  left: -1.5em;
+  background-size: contain;
+}
+
+.foot-cont {
+  font-family: "roboto";
+  font-weight: bold;
+  color: lightcyan;
+  margin-right: 2em;
+  /* background-color: red; */
+  margin-left: 1.5em;
+  margin-top: 1em;
+}
+
+.foot-cont li {
+  list-style-type: none;
+  position: relative;
+  margin: 0.3em;
+  text-shadow: 0px 3px 4px black;
+}
+
+li p {
+  display: inline;
+}
+
+.foot-cont li:first-child:before {
+  content: "";
+  background-image: url(../Forex/house-solid.svg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: -1.5em;
+  background-color: white;
+  box-shadow: 0px 0px 3px 2px black;
+  /* fill: white; */
+}
+
+.foot-cont li:nth-child(2):before {
+  content: "";
+  background-image: url(../Forex/phone-solid.svg);
+  background-repeat: no-repeat;
+  background-position: contain;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: -1.5em;
+  background-color: white;
+  box-shadow: 0px 0px 3px 2px black;
+  /* fill: white; */
+}
+
+.foot-cont li:last-child:before {
+  content: "";
+  background-image: url(../Forex/envelope-solid.svg);
+  background-position: cover;
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  left: -1.5em;
+  background-color: white;
+  box-shadow: 0px 0px 3px 2px black;
+  /* fill: white; */
 }
