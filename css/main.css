@@ -1,4 +1,115 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("../Roboto-Regular.ttf");
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(steelblue, #333);
+  /* background-image: url(/Forex/Order\ Block\ Indicator.jpeg); */
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  padding: 2em;
+}
+
+.nav-cont1 a {
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: steelblue;
+  text-shadow: 0px 0px 4px black;
+}
+
+.land-sect {
+  background-image: url(/Forex/istockphoto-1313294605-612x612.jpg);
+  height: 100%;
+  width: 100%;
+  /* border-radius: 1.5em; */
+}
+
+.land-cont1 {
+  height: 100%;
+  widows: 100%;
+  /* border-radius: 1.5em; */
+  background-color: rgba(0, 0, 0, 0.76);
+  padding: 1em;
+}
+
+.land-cont2 {
+  color: white;
+}
+
+.land-cont2 h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.521);
+  font-family: "roboto";
+  text-transform: uppercase;
+  text-shadow: 0px 0px 5px slateblue;
+}
+
+.land-cont2 h1 span {
+  display: block;
+  font-size: 2.9rem;
+}
+
+.text h3 {
+  font-size: 1rem;
+  text-align: left;
+  color: lightcyan;
+  font-family: sans-serif;
+  margin-bottom: 0.5em;
+}
+
+.text p {
+  text-align: right;
+  text-transform: capitalize;
+}
+
+.text p::before {
+  content: "-- ";
+  font-size: 1.2rem;
+  margin-top: 0.2em;
+}
+
+.img-cont {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  background-image: url(../Forex/Premium_Vector___Forex_trading_wallpaper-removebg-preview.png);
+  top: 35%;
+  z-index: 1;
+  right: -10px;
+}
+
+/* .img-cont div {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.212);
+} */
+
+.land-cont3 {
+  font-size: 1.2em;
+  color: white;
+  margin-top: 1em;
+  text-transform: capitalize;
+  color: slateblue;
+  text-shadow: 0px 0px 1px white;
+}
+
+.land-cont3 ul {
+  list-style: none;
+}
+
+.land-cont3 li::before {
+  content: "";
 }
