@@ -31,6 +31,7 @@ body {
 }
 
 .land-sect {
+  border-radius: 1em;
   height: 100%;
   background-image: linear-gradient(rgba(70, 131, 180, 0.813), #33333339);
 
@@ -43,6 +44,7 @@ body {
   widows: 100%;
   /* border-radius: 1.5em; */
   background-color: rgba(0, 0, 0, 0.641);
+  border-radius: 1em;
   padding: 1em;
   box-shadow: 3px 3px 5px 1px black;
 }
