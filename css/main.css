@@ -11,7 +11,8 @@
 
 body {
   height: 100vh;
-  background-image: linear-gradient(steelblue, #333);
+  background-image: url(/Forex/istockphoto-1313294605-612x612.jpg);
+
   /* background-image: url(/Forex/Order\ Block\ Indicator.jpeg); */
   background-size: cover;
   background-position: bottom;
@@ -25,13 +26,14 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-family: sans-serif;
-  color: steelblue;
-  text-shadow: 0px 0px 4px black;
+  color: lightcyan;
+  text-shadow: 0px 4px 3px black;
 }
 
 .land-sect {
-  background-image: url(/Forex/istockphoto-1313294605-612x612.jpg);
   height: 100%;
+  background-image: linear-gradient(rgba(70, 131, 180, 0.813), #33333339);
+
   width: 100%;
   /* border-radius: 1.5em; */
 }
@@ -42,6 +44,7 @@ body {
   /* border-radius: 1.5em; */
   background-color: rgba(0, 0, 0, 0.641);
   padding: 1em;
+  box-shadow: 3px 3px 5px 1px black;
 }
 
 .land-cont2 {
@@ -87,8 +90,8 @@ body {
   position: absolute;
   background-image: url(../Forex/Premium_Vector___Forex_trading_wallpaper-removebg-preview.png);
   top: 38%;
-  z-index: 1;
-  right: -25px;
+  z-index: 0;
+  right: -0px;
 }
 
 /* .img-cont div {
@@ -100,11 +103,13 @@ body {
 .land-cont3 {
   font-size: 1.2em;
   color: white;
-  margin-top: 0.8em;
-  margin-left: 15px;
   text-transform: capitalize;
-  color: slateblue;
-  text-shadow: 0px 0px 1px white;
+  text-shadow: 2px 2px 1px black;
+  font-family: "roboto";
+
+  padding: 1.4em;
+  padding-bottom: 0;
+  z-index: 4;
 }
 
 .land-cont3 li {
@@ -130,15 +135,14 @@ body {
   color: lightcyan;
   margin-right: 2em;
   /* background-color: red; */
-  margin-left: 1.5em;
-  margin-top: 1em;
+  padding-left: 2.4em;
 }
 
 .foot-cont li {
   list-style-type: none;
   position: relative;
   margin: 0.3em;
-  text-shadow: 0px 3px 4px black;
+  text-shadow: 1px 1px 1px green;
 }
 
 li p {
